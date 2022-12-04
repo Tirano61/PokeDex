@@ -33,15 +33,16 @@ export const usePokemonPaginated = () => {
     }
 
     useEffect(() => {
-      loadPokemos();
+        loadPokemos();
     
       
     }, [])
     
 
     return {
-      simplePokemonList,
-      isLoading,
+        simplePokemonList,
+        isLoading,
+        loadPokemos,
     }
 
 
